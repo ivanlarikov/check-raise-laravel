@@ -1,0 +1,51 @@
+Players
+user_notifications
+id
+registration
+unregister
+waiting
+tournament
+
+room_subscribers
+id
+user_id
+email
+room_id
+active
+type
+
+
+----
+Pending 
+Alter table user profile change displayoption length
+Alter table user profile change phonenumber,zipcode  length to 20
+Alter Tournament details for Level Duration field set as varchar 50
+Alter Tournament details for type and deleartype field set as varchar 50
+Alter Toournament Structure duration Varchar 50
+alter Tournament Registration Log rename 
+// Migrate user Birthday
+
+---
+Db Import Process 
+1. Import Users
+2. Import User Roles 
+3. Import User Profile
+4. Import Poker Room
+5. Import Room Details
+6. Import Room Logo
+7. Import Room Descriptions
+8. Import Tournaments
+9. Import Tournaments Details
+10. Import Tournaments Structure
+11. Import Tournaments Reg Logs
+12. Import Tournament Description
+13. 
+a. Import manual_user
+b. Import waiting_list_players
+c. Import checkin_players
+14. Link Tournament
+15. Update Tournament Status Registration Closed
+16. Tournaments Logs
+17. Update Tournament Status
+18. Room Users Import
+19. Room Directors and Capabilities

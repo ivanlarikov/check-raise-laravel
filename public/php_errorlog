@@ -1,0 +1,1 @@
+[26-Oct-2023 10:40:31 UTC] PHP Fatal error:  Allowed memory size of 805306368 bytes exhausted (tried to allocate 400560128 bytes) in /home/customer/www/checkapi.rigicgspl.com/public_html/app/Http/Controllers/User/Director/TournamentController.php on line 257

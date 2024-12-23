@@ -1,0 +1,17 @@
+Post Meta for Poker room .... 
+// tournaments and rook relations are in post meta of room
+Logs
+
+
+Work on tournaments Structure
+
+tournament_structures
+id
+tournament_id
+sortorder
+sb
+bb
+ante
+duration
+break
+break_title
